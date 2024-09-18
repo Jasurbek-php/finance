@@ -1,0 +1,70 @@
+.Contactus {
+    width: 100%;
+    height: 80vh;
+    background: url('./../../assets/backround.png');
+    background-size: cover;
+    background-color: #111849;
+    text-align: center;
+}
+
+.Contactus h3 {
+    color: #5975FF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 200px;
+}
+
+.Contactus h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: white;
+}
+
+.Contactus button {
+    background-color: #5975FF;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.Contactus button:hover {
+    background-color: #231F65;
+}
+
+.Contactus button p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    margin: 0;
+    color: white;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 880px) {
+    .Contactus {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Contactus {
+        height: 125%;
+    }
+}

@@ -1,0 +1,88 @@
+.OurServices {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.OurServices h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+    color: #3029D9;
+}
+
+.OurServices h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: #0B1131;
+}
+
+.flex__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.post {
+    width: 375px;
+    height: 444px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    box-shadow: 0px 10px 100px 10px #0000001A;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.post img {
+    margin-top: 80px;
+}
+
+.post p {
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+    color: #0B1131;
+}
+
+.post h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+
+    color: #0B1131;
+}
+
+.post:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 150px 15px #0000001A;
+}
+
+.post:hover h3 {
+    color: #3029D9;
+}
+
+.post .bgeffect {
+
+    position: absolute;
+    top: 23px;
+    margin-left: -125px;
+    left: 0;
+    width: 140%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+}

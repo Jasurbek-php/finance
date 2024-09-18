@@ -1,0 +1,162 @@
+.Startnow {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.keyfeatures-left h3 {
+    color: #5975FF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.keyfeatures-left {
+    width: 45%;
+    margin-left: 50px;
+}
+
+.keyfeatures-left h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: black;
+}
+
+.keyfeatures-left p {
+    color: #A0ABB8;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.keyfeatures-left button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.keyfeatures-left button:hover {
+    background-color: #231F65;
+}
+
+.keyfeatures-left button p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    margin: 0;
+    color: white;
+    padding: 10px 20px;
+}
+
+.keyfeatures-right {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.keyfeatures-right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+}
+
+.keyfeatures-right li {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 208px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px 0px #0000001A;
+}
+
+.keyfeatures-right li:hover p {
+    color: #5975FF;
+    transition: color 0.3s;
+}
+
+@media (max-width: 1024px) {
+    .keyfeatures-left {
+        width: 35%;
+        margin-left: 50px;
+    }
+
+    .keyfeatures-left h1 {
+        font-size: 28px;
+    }
+
+    .keyfeatures-left p {
+        font-size: 14px;
+    }
+
+    .keyfeatures-left button {
+        font-size: 12px;
+        left: 100px;
+    }
+
+
+    .keyfeatures-right {
+        width: 65%;
+        margin-left: 0;
+    }
+
+
+    @media (max-width: 800px) {
+        .Startnow {
+            flex-direction: column;
+        }
+
+        .keyfeatures-left {
+            width: 80%;
+            margin-left: 0;
+            padding: 30px;
+        }
+
+        .keyfeatures-left h1 {
+            font-size: 24px;
+        }
+
+        .keyfeatures-left p {
+            font-size: 12px;
+        }
+
+        .keyfeatures-left button {
+            font-size: 10px;
+            left: 50px;
+            padding: 0px;
+        }
+
+        .keyfeatures-right {
+            display: none;
+        }
+
+
+    }
+
+    @media screen and (max-width : 350px) {
+        .KeyFeatures {
+            height: 125vh;
+        }
+    }
+
+}
