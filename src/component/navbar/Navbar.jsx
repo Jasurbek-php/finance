@@ -1,12 +1,26 @@
 import './Navbar.css'
 import logo from './../../assets/logo.png';
 import { Link } from "react-router-dom";
-
+import { CiMenuBurger } from "react-icons/ci";
+import { useState } from 'react';
 function Navbar() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    // Menu toggle funksiyasi
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen); // ochiq bo'lsa yopadi, yopiq bo'lsa ochadi
+    };
+
+
     return (
         <div className='Navbar'>
             <img src={logo} alt='Logo' />
-            <ul>
+            <div className="menu-icon" id='menuIcon' onClick={toggleMenu}>
+
+                <CiMenuBurger className='icons' />
+            </div>
+
+            <ul id='menuItems' className={isMenuOpen ? 'active' : ''}>
                 <li>
                     <Link to={'/'}>Home</Link>
                 </li>

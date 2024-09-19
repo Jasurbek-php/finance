@@ -175,15 +175,14 @@
             .header-left button {
                 font-size: 8px;
                 margin: 0;
-                padding: 0;
                 position: relative;
                 top: 40px;
-                padding: 5px;
-                margin-left: 30px;
+                padding: 5px 15px;
+                margin-left: 14px;
             }
 
             .header-left button p {
-                font-size: 14px;
+                font-size: 18px;
             }
 
             .header-right {

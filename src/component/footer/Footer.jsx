@@ -12,7 +12,7 @@ function Footer() {
             </ul>
             <ul>
                 <li>
-                    <Link to={'/home'}>Home</Link>
+                    <Link to={'/'}>Home</Link>
                 </li>
                 <li>
                     <Link to={'/aboutUs'}>About us</Link>
@@ -26,8 +26,8 @@ function Footer() {
                     <Link to={'/ourServices'}>Our Services</Link>
                 </li>
                 <li>
-                    <Link>
-                        Contact US
+                    <Link to={'/more'}>
+                        More
                     </Link>
                 </li>
                 <li><Link>FAQ
