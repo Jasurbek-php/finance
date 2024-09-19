@@ -112,7 +112,9 @@
         height: 100%;
         background-color: #3029D9;
         z-index: 255;
+        margin-top: 100px;
     }
+
 
     .Navbar ul li {
         text-align: center;
@@ -146,6 +148,9 @@
         padding: 10px 0;
         margin: 0;
     }
+
+
+
 
     .menu-icon {
         display: block;

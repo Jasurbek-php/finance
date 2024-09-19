@@ -21,7 +21,7 @@ function Navbar() {
             </div>
 
             <ul id='menuItems' className={isMenuOpen ? 'active' : ''}>
-                <li>
+                <li className='menuItemsOne'>
                     <Link to={'/'}>Home</Link>
                 </li>
                 <li>
